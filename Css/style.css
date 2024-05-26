@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-container{
+    background-color: black;
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: auto;
+    position: sticky;
+    
+}
+a{
+    margin: auto;
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover{
+    color:aqua ;
+    font: size 25px;
+    cursor: pointer;
+}
+marquee{
+    background-color: yellow;
+    height: 25px;
+}
+@media only screen and (max-width: 541px) {
+    a{
+       
+        margin: 10px;
+        width: auto;
+    }
+
+}
+
+@media only screen and (max-width: 200px) {
+    a{
+       
+        /* margin: 10px; */
+        width: 100pc;
+    }
+
+}
+
